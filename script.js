@@ -57,10 +57,10 @@ const quizData = [
 const quiz = document.getElementById("quiz");
 const questionEl = document.getElementById('question');
 const answerEls = document.querySelectorAll(".answer");
-const a_text = document.getElementById('a_text');
-const b_text = document.getElementById('b_text');
-const c_text = document.getElementById('c_text');
-const d_text = document.getElementById('d_text');
+const a_text = document.getElementById('a_option');
+const b_text = document.getElementById('b_option');
+const c_text = document.getElementById('c_option');
+const d_text = document.getElementById('d_option');
 const submitBtn = document.getElementById('submit');
 
 let currentQuiz = 0;
